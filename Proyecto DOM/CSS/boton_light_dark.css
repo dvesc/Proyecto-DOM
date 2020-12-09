@@ -1,0 +1,37 @@
+.dark-oscuro {
+  background-color: rgb(34, 34, 34);
+}
+.dark-claro {
+  background-color: rgb(44, 44, 44);
+}
+.dark-text {
+  color: whitesmoke;
+}
+
+.boton-light-dark {
+  /*
+    position: fixed;  No me siveeeee, no se posiciona donde
+    bottom: 1vh;      yo quieroooo
+    */
+  cursor: pointer;
+  display: flex;
+  position: sticky;
+  bottom: 0;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 3rem;
+  z-index: 998;
+  padding: 0;
+  width: inherit;
+  height: 4.5rem;
+  color: whitesmoke;
+  background-color: hsl(0, 4%, 14%);
+  transition: 0.5s ease;
+}
+
+
+.activo {
+  color: #fff53c;
+}

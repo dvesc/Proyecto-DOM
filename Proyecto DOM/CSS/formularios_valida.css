@@ -1,0 +1,68 @@
+.formulario {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.formulario > * {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  display: block;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+textarea {
+  resize: none;
+}
+
+.formulario input[type="submit"] {
+  width: 40%;
+  background-color: #7952b3;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  min-height: 2rem;
+  border-radius: 15px;
+}
+.formulario input[type="submit"]:hover{
+  background-color: #8463b6;
+}
+
+.formulario [required]:valid {
+  border: 2px solid lawngreen;
+}
+
+.none {
+  display: none;
+}
+
+.contact-form-error {
+  margin-top: -1rem;
+  font-size: 80%;
+  background-color: rgb(233, 79, 83);
+  color: white;
+  transition: all 800ms ease;
+}
+
+.is-active {
+  display: block;
+  animation: show-message 1s 1 normal 0s ease-out both;
+}
+
+@keyframes show-message {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.loader {
+  width: 10%;
+}

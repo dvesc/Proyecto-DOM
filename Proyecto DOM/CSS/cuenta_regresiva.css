@@ -1,0 +1,53 @@
+.contenedor-countDown {
+  width: 65%;
+  background-color: rgb(212, 211, 211);
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 0px 2px 3px;
+  margin: auto;
+}
+
+.countDown {
+  margin: inherit;
+  display: block;
+  font-size: 1.3rem;
+  min-height: 4rem;
+  background-color: rgba(44, 44, 44, 0.829);
+  color: white;
+  font-weight: normal;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: rgb(0, 0, 0) 0px 2px 2px;
+  text-shadow: rgb(63, 63, 63) 3px 0px 4px;
+}
+
+.contenedor-countDown input {
+  padding-inline-start: 2%;
+  padding-inline-end: 2%;
+  border-radius: 10px;
+  border: none;
+  min-height: 2rem;
+  max-width: 50%;
+}
+
+.contenedor-countDown input:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 2px;
+}
+
+.contenedor-countDown button {
+  margin-top: 2px;
+  border: none;
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: rgba(235, 233, 233, 0);
+  border-block-start: rgba(235, 233, 233, 0) 5px solid;
+  cursor: pointer;
+}
+
+.contenedor-countDown button:hover {
+  border-block-start: #1dd3b0 5px solid;
+  transition: border-block-start 0.2s ease;
+}

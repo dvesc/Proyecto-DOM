@@ -1,0 +1,31 @@
+.boton-scroll {
+  cursor: pointer;
+  position: fixed;
+  bottom: 1vh;
+  left: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  font-size: 3rem;
+  z-index: 995;
+  padding: 0;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: #fff87f;
+  box-shadow: rgb(0, 0, 0) -1px 1px 3px;
+  transform: translate(0, 200%);
+  transition: 0.5s ease;
+}
+.des-oculto {
+  transform: translate(0, 0);
+}
+
+.boton-scroll:hover {
+  background-color: #fff53c;
+}
+.boton-scroll:active {
+  width: 3.6rem;
+  height: 3.6rem;
+}

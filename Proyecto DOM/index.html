@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css"
+    integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="./CSS/evalua_conexion.css">
+  <link rel="stylesheet" href="./CSS/boton_scroll.css">
+  <link rel="stylesheet" href="./CSS/boton_light_dark.css">
+  <link rel="stylesheet" href="./CSS/reloj_digital.css">
+  <link rel="stylesheet" href="./CSS/mueve_pelota.css">
+  <link rel="stylesheet" href="./CSS/cuenta_regresiva.css">
+  <link rel="stylesheet" href="./CSS/formularios_responsive_tester.css">
+  <link rel="stylesheet" href="./CSS/responsive_slider.css">
+  <link rel="stylesheet" href="./CSS/web_cam.css">
+  <link rel="stylesheet" href="./CSS/filtro_de_busqueda.css">
+  <link rel="stylesheet" href="./CSS/sorteo_digital.css">
+  <link rel="stylesheet" href="./CSS/formularios_valida.css">
+  <link rel="stylesheet" href="./CSS/narrador.css">
+  <link rel="stylesheet" href="./CSS/index.css">
+</head>
+
+<body data-dark-oscuro>
+  <header class="cabezera" data-dark-claro>
+    <h1>Proyecto "DOM"</h1>
+  </header>
+
+
+
+  <button class="hamburger hamburger--arrowturn-r" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+
+  <button class="boton-scroll">↻</button>
+
+
+
+  <main class="main" data-dark-claro>
+    <aside class="panel">
+      <nav data-dark-oscuro>
+        <a href="#seccion11" class="enlace" data-scroll-spy data-dark-text>Responsive Slider</a>
+        <a href="#seccion1" class="enlace" data-scroll-spy data-dark-text>Reloj Digital</a>
+        <a href="#seccion2" class="enlace" data-scroll-spy data-dark-text>Mueve la pelota</a>
+        <a href="#seccion3" class="enlace" data-scroll-spy data-dark-text>Cuenta Regresiva</a>
+        <a href="#seccion4" class="enlace" data-scroll-spy data-dark-text>Responsive Video</a>
+        <a href="#seccion5" class="enlace" data-scroll-spy data-dark-text>Responsive Tester</a>
+        <a href="#seccion6" class="enlace" data-scroll-spy data-dark-text>User Agent</a>
+        <a href="#seccion7" class="enlace" data-scroll-spy data-dark-text>Web Cam</a>
+        <a href="#seccion8" class="enlace" data-scroll-spy data-dark-text>Ubicación</a>
+        <a href="#seccion14" class="enlace" data-scroll-spy data-dark-text>Narrador</a>
+        <a href="#seccion9" class="enlace" data-scroll-spy data-dark-text>Filtro de Busqueda</a>
+        <a href="#seccion10" class="enlace" data-scroll-spy data-dark-text>Sorteo Digital</a>
+        <a href="#seccion12" class="enlace" data-scroll-spy data-dark-text>Video Inteligente</a>
+        <a href="#seccion13" class="enlace" data-scroll-spy data-dark-text>Formulario</a>
+        
+        <button class="boton-light-dark">🌙</button>
+      </nav>
+    </aside>
+
+
+
+    <div class="ctnGlobal">
+      <section id="seccion11" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Responsive Slider</h2>
+        <div class="slider">
+          <div class="slider-slides">
+            <div class="slider-slide active"><img src="https://placeimg.com/750/450/nature"></div>
+            <div class="slider-slide"><img src="https://placeimg.com/750/450/any"></div>
+            <div class="slider-slide"><img src="https://placeimg.com/750/450/tech"></div>
+            <div class="slider-slide"><img src="https://placeimg.com/750/450/animals"></div>
+            <div class="slider-slide"><img src="https://placeimg.com/750/450/people"></div>
+            <div class="slider-slide"><img src="https://placeimg.com/750/450/architecture"></div>
+          </div>
+          <div class="slider-btns">
+            <button class="prev"><</button>
+                <button class="next">></button>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="seccion1" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Reloj Digital</h2>
+        <section class="contenedor-Reloj">
+          <h3 class="relojDigital"></h3>
+          <button class="activaReloj">Mostrar Reloj</button>
+          <button class="detenReloj">Quitar Reloj</button>
+          <button class="activaAlarma">Sonar Alarma</button>
+          <button class="detenAlarma">Quitar Alarma</button>
+        </section>
+      </section>
+
+
+      <section id="seccion2" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Mueve la pelota</h2>
+        <article class="espacioMovil">
+          <div class="objMovil"></div>
+        </article>
+        <h4 data-dark-text>Utiliza las flechas <br>↑ ← ↓ →</h4>
+      </section>
+
+
+      <section id="seccion3" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Cuenta Regresiva</h2>
+        <section class="contenedor-countDown">
+          <h3 class="countDown"></h3>
+          <input type="datetime-local" class="elInput">
+          <button class="iniciaConteo">Iniciar</button>
+          <button class="reiniciaConteo">Cancelar</button>
+        </section>
+      </section>
+
+
+      <section id="seccion4" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Responsive Video</h2>
+        <p data-dark-text>El diseño web responsive o adaptativo es una técnica de
+          diseño web que busca la correcta visualización de una misma página en
+          distintos dispositivos. Desde ordenadores de escritorio a tablets y
+          móviles. <br><br> Hoy en día accedemos a sitios web desde todo tipo de
+          dispositivos; ordenador, tablet, smartphone… por lo que, cada vez más,
+          nos surge la necesidad de que nuestra web se adapte a los diferentes
+          tamaños de los mismos.
+        </p>
+        <div id="youtubeVideo"></div>
+      </section>
+
+      <section id="seccion5" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Responsive Tester</h2>
+        <form id="respTester">
+          <input type="url" placeholder="Ingresa tu sitio web" name="url" class="ingresar" required><br>
+          <input type="text" placeholder="Ingresa el alto" name="alto" class="ingresar" required><br>
+          <input type="text" placeholder="Ingresa el Ancho" name="ancho" class="ingresar" required><br>
+          <input type="submit" value="Abrir" class="abrir">
+          <input type="button" value="Cerrar" name="cerrar" class="cerrar" disabled>
+        </form>
+      </section>
+
+
+
+      <section id="seccion6" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>User Agent</h2>
+        <p data-dark-text class="contenedor"></p>
+      </section>
+
+      <section id="seccion7" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Web Cam</h2>
+        <div id="contieneWebCam" class="contieneWebCam">
+          <button class="activar">Activar</button><button class="desactivar">Desactivar</button>
+          <div class="videoWeb">
+            <video class="videoWebCam"></video>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="seccion8" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Ubicación</h2>
+        <p class="datosDeLaUbicacion" data-dark-text></p>
+        <div id="ubicacion"></div>
+      </section>
+
+
+      <section id="seccion14" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text="">Narrador</h2>
+        <div class="narrador">
+          <select class="formato-de-voz">
+            <option value="null">- Voz predeterminada -</option>
+          </select> 
+          <textarea class="text-a-narrar" cols="50" rows="10" placeholder="Escribe el texto a narrar"textarea></textarea>
+          <input type="button" class="narrar" value="Empezemos">
+        </div>
+      </section>
+
+
+      <section id="seccion9" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Filtro de Busqueda</h2>
+        <input type="search" placeholder="busca..." class="busqueda">
+        <div class="tarjetas">
+          <figure class="tarjeta">
+            <img src="https:/placeimg.com/200/250/nature">
+            <figcaption>Naturaleza</figcaption>
+          </figure>
+          <figure class="tarjeta">
+            <img src="https:/placeimg.com/200/250/people">
+            <figcaption>Personas</figcaption>
+          </figure>
+          <figure class="tarjeta">
+            <img src="https:/placeimg.com/200/250/architecture">
+            <figcaption>Arquitectura</figcaption>
+          </figure>
+          <figure class="tarjeta">
+            <img src="https:/placeimg.com/200/250/any">
+            <figcaption>Any</figcaption>
+          </figure>
+          <figure class="tarjeta">
+            <img src="https:/placeimg.com/200/250/tech">
+            <figcaption>Tecnologia</figcaption>
+          </figure>
+          <figure class="tarjeta">
+            <img src="https:/placeimg.com/200/250/animals">
+            <figcaption>Animales</figcaption>
+          </figure>
+        </div>
+      </section>
+
+
+      <section id="seccion10" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text="">Sorteo Digital</h2>
+        <p class="contenedorSorteo" data-dark-text></p>
+        <button class="iniciarSorteo">Comenzar sorteo</button>
+      </section>
+
+
+      <section id="seccion12" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text="">Video Inteligente</h2>
+        <video src="./assets/videoplayback (1).mp4" loop width="90%" class="videoIntell" muted controls
+          data-video-intel></video>
+      </section>
+
+      <section id="seccion13" class="secciones-principales" data-scroll-spy>
+        <h2 data-dark-text>Formulario</h2>
+        <form class="formulario" action="https://formsubmit.co/davidesc11.11@gmail.com" method="POST" target="_blank">
+          <input type="text" name="nombre" placeholder="Ingresa tu nombre"
+            pattern="^[ÁÉÍÓÚA-Z][a-záéíóú]+(\s+[ÁÉÍÓÚA-Z]?[a-záéíóú]+)*$"
+            title="Solo se aceptan letras y espacios en blanco" required>
+          <input type="email" name="email" placeholder="Ingresa tu e-mail"
+            pattern="^[a-z0-9]+(\.[-a-z0-9]+)*@[a-z0-9]+(\.[-a-z0-9]+)*(\.[a-z]{2,15})$" title="Solo correos validos"
+            required>
+          <input type="text" name="asunto" placeholder="Ingresa un asunto" title="No puedes dejar esto vacio" required>
+          <textarea cols="50" rows="6" name="comentario" placeholder="Deja tu comentario" data-pattern="^.{1,255}$"
+            title="Tu comentario es demasiado largo para enviar" required></textarea>
+          <div class="form-contact-loader none">
+            <img class="loader" src="./assets/three-dots.svg">
+          </div>
+          <div class="form-contact-responsive none">
+            <h4 data-dark-text="">Tu comentario ha sido eviado con exito</h4>
+          </div>
+          <input type="submit" value="Enviar" class="enviar">
+        </form>
+      </section>
+    </div>
+  </main>
+
+
+  <script src="./JS/DOM/index.js" type="module"></script>
+</body>
+
+</html>

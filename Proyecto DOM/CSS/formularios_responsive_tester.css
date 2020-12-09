@@ -1,0 +1,41 @@
+form {
+  margin: auto;
+  border: solid 1px rgb(170, 170, 170);
+  box-shadow: rgb(0, 0, 0) 0px 1px 2px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 60%;
+  padding: 2%;
+}
+form input {
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+}
+
+
+.abrir,
+.cerrar {
+  background-color: #6fe421;
+  color: whitesmoke;
+  border: none;
+  min-height: 2rem;
+  margin-top: 3%;
+  width: 40%;
+  font-size: 20px;
+  cursor: pointer;
+}
+.cerrar {
+  background-color: rgb(233, 79, 83);
+}
+
+.abrir:hover,
+.cerrar:hover{
+  background-color: #9b9b9b;
+}
+
+
+.nop{
+  background-color: rgba(255, 0, 0, 0.109);
+  border: 1px red solid
+}

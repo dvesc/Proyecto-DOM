@@ -1,0 +1,27 @@
+.busqueda {
+  padding: 0.5rem;
+  border-radius: 15px;
+  border: solid 1px rgb(49, 49, 49);
+  width: 40%;
+}
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.tarjeta {
+  background-color: rgb(101, 241, 171);
+  color: rgb(0, 0, 0);
+  transition: all 0.3s ease-out;
+  box-shadow: rgb(0, 0, 0) 0px 2px 2px;
+}
+.tarjeta figcaption {
+  padding: 1rem;
+}
+
+.oculta {
+  opacity: 0;
+  visibility: hidden;
+  order: 1;
+}

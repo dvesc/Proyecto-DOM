@@ -1,0 +1,32 @@
+.narrador{
+    padding: 2%;
+    width: 70%;
+    border: 1px solid grey;
+    margin: auto;
+    box-shadow: rgb(0, 0, 0) 0px 1px 2px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.narrador>*{
+    margin: 10px auto;
+    padding: 0.5rem;
+    width: 100%;
+    display: block;
+    font-family: sans-serif;
+}
+
+.narrador input[type="button"]{
+    width: 40%;
+    background-color: #7952b3;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    min-height: 2rem;
+    border-radius: 15px;
+}
+.narrador input[type="button"]:hover{
+    background-color: #8463b6;
+}
